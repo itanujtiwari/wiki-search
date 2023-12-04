@@ -1,0 +1,5 @@
+<form (submit)="onFormSubmit($event)">
+<div class="my-3">
+  <input class="form-control" placeholder="Search anything" #input (input)="term = input.value" autofocus>
+</div>
+</form>
